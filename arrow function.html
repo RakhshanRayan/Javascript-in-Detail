@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Javascript Arrow Function</h2>
+    <p id="result"></p>
+    <script>
+      add = (a, b) => a + b;
+      try {
+        document.getElementById("result").innerHTML = add(4, 6);
+      } catch (err) {
+        document.getElementById("result").innerHTML = err.message;
+      }
+    </script>
+  </body>
+</html>
